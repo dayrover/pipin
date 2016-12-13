@@ -1,7 +1,5 @@
 package ttree.pipin.i2c;
 
-import java.io.IOException;
-
 import com.pi4j.io.i2c.I2CBus;
 import com.pi4j.io.i2c.I2CDevice;
 import com.pi4j.io.i2c.I2CFactory;
@@ -15,9 +13,9 @@ public class LEDTest {
 
 	/**
 	 * Main for LED Test.
-	 * @throws IOException 
+	 * @throws Exception
 	 */
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Exception {
 
 		System.out.println("Testing LEDs 0,1,2,3");
 		final boolean active_leds[] = new boolean[] { 

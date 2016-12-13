@@ -6,7 +6,7 @@
     <property name="source" value="1.7"/>
     <path id="Pipin.classpath">
         <pathelement location="bin"/>
-        <pathelement location="lib/pi4j-core-0.0.5.jar"/>
+        <pathelement location="lib/pi4j-core-1.1.jar"/>
     </path>
 
 	<target name="init">
@@ -44,7 +44,7 @@
         <jar destfile="LEDTest.jar">
             <manifest>
                 <attribute name="Main-Class" value="ttree.pipin.i2c.LEDTest"/>
-                <attribute name="Class-Path" value=". lib/pi4j-core-0.0.5.jar"/>
+                <attribute name="Class-Path" value=". lib/pi4j-core-1.1.jar"/>
             </manifest>
             <fileset dir="bin"/>
         </jar>
@@ -54,7 +54,7 @@
         <jar destfile="MD25Test.jar">
             <manifest>
                 <attribute name="Main-Class" value="ttree.pipin.i2c.MD25Test"/>
-                <attribute name="Class-Path" value=". lib/pi4j-core-0.0.5.jar"/>
+                <attribute name="Class-Path" value=". lib/pi4j-core-1.1.jar"/>
             </manifest>
             <fileset dir="bin"/>
         </jar>
@@ -64,7 +64,7 @@
         <jar destfile="ScratchRobo.jar" filesetmanifest="mergewithoutmain">
             <manifest>
                 <attribute name="Main-Class" value="ttree.scratch.ScratchRobo"/>
-                <attribute name="Class-Path" value=". lib/pi4j-core-0.0.5.jar"/>
+                <attribute name="Class-Path" value=". lib/pi4j-core-1.1.jar"/>
             </manifest>
             <fileset dir="bin"/>
         </jar>

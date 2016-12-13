@@ -1,7 +1,6 @@
 package ttree.pipin.i2c;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 
 import com.pi4j.io.i2c.I2CBus;
@@ -17,9 +16,9 @@ public class MD25Test {
 
 	/**
 	 * Main for Motor Test.
-	 * @throws IOException 
+	 * @throws Exception
 	 */
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Exception {
 
 		// RPi external I2C bus
 		final I2CBus piExtBus = I2CFactory.getInstance(1);

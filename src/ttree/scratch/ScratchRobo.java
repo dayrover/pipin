@@ -79,7 +79,7 @@ public class ScratchRobo  {
 				remoteSensors.add(leds);
 			}
 		}
-		catch (IOException e) {
+		catch (IOException | I2CFactory.UnsupportedBusNumberException e) {
 			log.warning("Cannot connect to i2c sensor: " + e.getMessage());
 			System.exit(2);	// signal no connection to i2c
 			return;
