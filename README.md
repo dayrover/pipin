@@ -144,10 +144,11 @@ The example can be compiled with "ant ScratchRobo" and started with "java -java 
 Additional software
 -------------------
 
-	Pi4J
-	----
-	Pipin builds on the work of the Pi4J project. This does all the hard work of providing a simple Java interface
-	to an i2c-dev devices. To get this low level access Pi4J consists of two parts: a java library "pi4j-core", and 	a native Linux library "libpi4j.so". Both of these are included directly in Pipin for ease of use. Thanks to 		the Pi4J developers for their hard work. Pi4J is licensed under "The Apache Software License, Version 2.0".
+Pi4J
+----
+Pipin builds on the work of the Pi4J project. This does all the hard work of providing a simple Java interface
+to an i2c-dev devices. To get this low level access Pi4J consists of two parts: a java library "pi4j-core", and
+a native Linux library "libpi4j.so". Both of these are included directly in Pipin for ease of use. Thanks to 		the Pi4J developers for their hard work. Pi4J is licensed under "The Apache Software License, Version 2.0".
 	
 Development
 -----------
@@ -157,7 +158,7 @@ Pipin is available on GitHub.
 	
 Copyright
 ---------
-Copyright 2013,2014 Michael Stevens
+Copyright 2013,2014,2017 Michael Stevens
 
 License
 -------
