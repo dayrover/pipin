@@ -101,7 +101,7 @@ Software to install
 
 	Java
 	----
-	Pipin works with the "Oracle JDK 7" for the Raspberry Pi. Simply install the package 'oracle-java7-jdk'
+	Pipin works with the "Oracle JDK 8" for the Raspberry Pi. Simply install the package 'oracle-java7-jdk'
 	on Raspbian. In addtion it is useful to install the "ant" package so that everything can easily be compiled.
 	On other systems such as ArchLinuxARM the OpenJDK can be used.
 

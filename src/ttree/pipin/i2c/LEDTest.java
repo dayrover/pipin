@@ -32,6 +32,7 @@ public class LEDTest {
 		final I2CDevice ledDevice = piExtBus.getDevice(0x6F);
 		
 		final LEDPWM ledpwm = new LEDPWM(ledDevice);
+		ledpwm.setup();
 
 		int pwm = 0;
 		boolean up = true;
